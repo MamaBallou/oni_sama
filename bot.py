@@ -17,54 +17,53 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 # Dictionnaire des GIFs pour chaque commande
 gifs = {
     'hug': [
-        #'https://tenor.com/bR7J9.gif',
-        'https://media1.tenor.com/m/2HxamDEy7XAAAAAd/yukon-child-form-embracing-ulquiorra.gif', #'https://tenor.com/sKvMcSpWTv2.gif',
-        #'https://tenor.com/xjRBLymEjT.gif',
-        #'https://tenor.com/trQEPQGHNHU.gif',
-        #'https://tenor.com/fEt4cKFd6tJ.gif',
-        #'https://tenor.com/czDJQhtoLFC.gif',
-        #'https://tenor.com/dw0XbsEOm7J.gif',
-        #'https://tenor.com/eLXnOcu8qzv.gif'
-        #'https://tenor.com/jzC8jw7DJ07.gif'
+        'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemx1dWNzMnEzMHo1NTQ5eXFuY281c3kxYXJzYWFyNjAxZTg5NHlwYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/PHZ7v9tfQu0o0/giphy.gif',
+        'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemx1dWNzMnEzMHo1NTQ5eXFuY281c3kxYXJzYWFyNjAxZTg5NHlwYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/143v0Z4767T15e/giphy.gif',
+        'https://media.giphy.com/media/49mdjsMrH7oze/giphy.gif',
+        'https://media.giphy.com/media/GMFUrC8E8aWoo/giphy.gif',
+        'https://media.giphy.com/media/kvKFM3UWg2P04/giphy.gif',
+        'https://media.giphy.com/media/u9BxQbM5bxvwY/giphy.gif',
+        'https://media.giphy.com/media/LIqFOpO9Qh0uA/giphy.gif'
+        'https://media.giphy.com/media/VXP04aclCaUfe/giphy.gif',
+        'https://media.giphy.com/media/IRUb7GTCaPU8E/giphy.gif',
     ],
     'kiss': [
-        'https://tenor.com/view/kiss-anime-kissing-gif-1234567890',
-        'https://tenor.com/view/kiss-anime-kissing-gif-1234567891',
+        'https://media.giphy.com/media/vUrwEOLtBUnJe/giphy.gif',
+        'https://media.giphy.com/media/FqBTvSNjNzeZG/giphy.gif',
+        'https://media.giphy.com/media/nyGFcsP0kAobm/giphy.gif',
+        'https://media.giphy.com/media/nyGFcsP0kAobm/giphy.gif',
+
     ],
     'bonk': [
-        'https://tenor.com/view/bonk-anime-hit-gif-1234567890',
-        'https://tenor.com/view/bonk-anime-hit-gif-1234567891',
+        'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjdwNmN1b2pqMHp3ZmRqbzhmd21mNnJicWZ4cDQ2ajZnbG1tcGZhZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BUP61wrSYtrI59TbEe/giphy.gif',
     ],
     'bang': [
-        'https://tenor.com/view/bang-anime-shoot-gif-1234567890',
-        'https://tenor.com/view/bang-anime-shoot-gif-1234567891',
+        'https://media.giphy.com/media/Mokwv5L0w38ju/giphy.gif',
     ],
     'facepalm': [
-        'https://tenor.com/view/facepalm-anime-gif-1234567890',
-        'https://tenor.com/view/facepalm-anime-gif-1234567891',
+        'https://media.giphy.com/media/USpSzYSiH3N1C/giphy.gif',
     ],
     'poke': [
-        'https://tenor.com/view/poke-anime-poking-gif-1234567890',
-        'https://tenor.com/view/poke-anime-poking-gif-1234567891',
+        'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmlyemtxMmV1ZDVwazFmMXpvc2FycW0wOWk0bzR4eWN0bnRmZ3JkOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/FdinyvXRa8zekBkcdK/giphy.gif',
     ],
     'patpat': [
-        'https://tenor.com/view/pat-pat-anime-head-pat-gif-1234567890',
-        'https://tenor.com/view/pat-pat-anime-head-pat-gif-1234567891',
+        'https://media.giphy.com/media/Z7x24IHBcmV7W/giphy.gif',
+        'https://media.giphy.com/media/eVpKZ8lvaciU3ySYhZ/giphy.gif',
+        'https://media.giphy.com/media/vaucvLYaM7UrNJHsgy/giphy.gif',
+        'https://media.giphy.com/media/aZSMD7CpgU4Za/giphy.gif',
+        'https://media.giphy.com/media/BNJ9NQWXrifPXb2jkW/giphy.gif',
+        'https://media.giphy.com/media/ZJknJqiPBmj3cRZKE7/giphy.gif',
     ],
     'hide': [
-        'https://tenor.com/view/hide-anime-hiding-gif-1234567890',
-        'https://tenor.com/view/hide-anime-hiding-gif-1234567891',
+        'https://media1.giphy.com/media/l1J9qeX2tGgPzdqKc/giphy.gif',
     ],
     'jumpscare': [
-        'https://tenor.com/view/jumpscare-anime-scary-gif-1234567890',
-        'https://tenor.com/view/jumpscare-anime-scary-gif-1234567891',
+        'https://media.giphy.com/media/6wTqrr9L2ZKlGyfFYZ/giphy.gif',
     ],
     'wave': [
-        'https://tenor.com/view/wave-anime-waving-gif-1234567890',
-        'https://tenor.com/view/wave-anime-waving-gif-1234567891',
+        'https://media.giphy.com/media/3oz8xTAJIQD6JWfTUc/giphy.gif',
     ]
 }
-
 
 @bot.event
 async def on_ready():
@@ -89,10 +88,13 @@ async def send_gif(interaction: discord.Interaction, command: str, message: str 
     await interaction.response.send_message(embed=embed)
 
 
-@bot.tree.command(name="hug", description="Envoie un GIF de câlin à une personne")
-async def hug(interaction: discord.Interaction, user: discord.Member):
-    message = f"{interaction.user.mention} fait un câlin à {user.mention}"
-    await send_gif(interaction, 'hug', message)
+@bot.tree.command(name="hug", description="Envoie un GIF de câlin (optionnellement à une personne)")
+async def hug(interaction: discord.Interaction, user: discord.Member = None):
+    if user:
+        message = f"{interaction.user.mention} fait un câlin à {user.mention}"
+        await send_gif(interaction, 'hug', message)
+    else:
+        await send_gif(interaction, 'hug')
 
 
 @bot.tree.command(name="kiss", description="Envoie un GIF de baiser aléatoire")
