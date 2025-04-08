@@ -19,15 +19,36 @@ GIFS = {
     ],
     'bonk': [
         'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjdwNmN1b2pqMHp3ZmRqbzhmd21mNnJicWZ4cDQ2ajZnbG1tcGZhZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BUP61wrSYtrI59TbEe/giphy.gif',
+        'https://i.pinimg.com/originals/9e/47/cb/9e47cb02eee84ca5724547b0bc92d997.gif',
     ],
     'bang': [
         'https://media.giphy.com/media/Mokwv5L0w38ju/giphy.gif',
+        'https://i.pinimg.com/originals/bd/13/10/bd1310b204507dd62c849e9db6191fa5.gif',
+        'https://i.pinimg.com/originals/02/18/11/0218110c161e73224dbba67222bbb97d.gif',
+        'https://i.pinimg.com/originals/e4/30/77/e430775a09bd790926b18c77e2a7badb.gif',
+        'https://i.pinimg.com/originals/63/81/ab/6381abc17ea2cb12231ccf9d66cb5e0e.gif',
+        'https://i.pinimg.com/originals/4e/75/d9/4e75d9e5e28bc08665335636a6a39094.gif',
+        'https://i.pinimg.com/originals/9d/e3/53/9de353d4686a34b2d5436eeff10df617.gif',
+        'https://45.media.tumblr.com/34064bbff82069ca14206b07d0a958e6/tumblr_mfefq8ioin1qeumowo1_500.gif',
     ],
     'facepalm': [
         'https://media.giphy.com/media/USpSzYSiH3N1C/giphy.gif',
+        'https://i.pinimg.com/originals/46/5c/34/465c344e842fe1705fa88211a60b3134.gif',
+        'https://i.pinimg.com/originals/db/2e/32/db2e3291778076f088e9ec94ad85af2c.gif',
+        'https://i.pinimg.com/originals/89/1f/6e/891f6ef4eb7385bf5142bed0385b4d11.gif',
+        'https://i.pinimg.com/originals/51/15/71/511571474a5ad429609835a755e0afd4.gif',
     ],
     'poke': [
         'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmlyemtxMmV1ZDVwazFmMXpvc2FycW0wOWk0bzR4eWN0bnRmZ3JkOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/FdinyvXRa8zekBkcdK/giphy.gif',
+        'https://media0.giphy.com/media/vaucvLYaM7UrNJHsgy/200.gif',
+        'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjBsdGM2a3dtZ2djd3FjNXlwbWYxcnJzcmpudThoNnBueTJ4a3o0dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FdinyvXRa8zekBkcdK/giphy.gif',
+        'https://64.media.tumblr.com/b894bd9b8c8ce641a900a2c346b8f348/tumblr_nmrex0adJg1svn9hfo1_640.gif',
+        'https://iili.io/b5WTej.gif',
+        'https://gifdb.com/images/high/anime-mashiro-mitsumine-annoyed-face-poke-kubptpfxtrzz1th5.gif',
+        'https://i.pinimg.com/originals/ae/50/b7/ae50b73b1f0867b1d2c062e77e22e6b5.gif',
+        'https://i.pinimg.com/originals/4a/6f/c2/4a6fc26ea70803ca1b2e5eb824aa4a48.gif',
+        'https://i.pinimg.com/originals/75/dd/18/75dd1840d9277ea8f64f65aa34b15c07.gif',
+        'https://giffiles.alphacoders.com/186/186802.gif',
     ],
     'patpat': [
         'https://media.giphy.com/media/Z7x24IHBcmV7W/giphy.gif',
@@ -39,11 +60,24 @@ GIFS = {
     ],
     'hide': [
         'https://media1.giphy.com/media/l1J9qeX2tGgPzdqKc/giphy.gif',
+        'https://i.pinimg.com/originals/9e/71/e6/9e71e6732539531d7b427c4d40224170.gif',
+        'https://i.pinimg.com/originals/d5/d0/ea/d5d0eac0f4ec5e6d9a3c9e8fd0fe21c0.gif',
+        'https://i.pinimg.com/originals/da/ec/7d/daec7d16bef2e33d34c1cf0da2ebe8a4.gif',
+        'https://i.pinimg.com/originals/dc/dd/aa/dcddaa06a2f55518505203f99bcb0cfc.gif',
+        'https://i.pinimg.com/originals/c6/a8/4b/c6a84b02a78d84e9d0f0cc43ee6b6811.gif',
     ],
     'jumpscare': [
         'https://media.giphy.com/media/6wTqrr9L2ZKlGyfFYZ/giphy.gif',
+        'https://i.gifer.com/Blbu.gif',
+        'https://i.imgur.com/Ku913dj.gif',
+        'https://64.media.tumblr.com/a737c5068c71796ff93a45d9939e149a/tumblr_o7apjzyQHg1u9lxjdo2_540.gif',
+        'https://i.pinimg.com/originals/93/4a/c2/934ac2588af9025a74d0ec5447f70690.gif',
     ],
     'wave': [
         'https://media.giphy.com/media/3oz8xTAJIQD6JWfTUc/giphy.gif',
-    ]
+        'https://i.pinimg.com/originals/94/3a/3f/943a3f95936d66dc0c78fd445893431e.gif',
+        'https://i.pinimg.com/originals/08/bf/4c/08bf4cd914d7b138ba4a69f1dfe0c66c.gif',
+        'https://i.pinimg.com/originals/97/24/d6/9724d6d1ae0f4e5018edc1a61fecafdc.gif',
+        'https://i.pinimg.com/originals/25/ed/7d/25ed7ddeae36fdc5d67a38aaf458fefa.gif',
+    ],
 }
