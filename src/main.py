@@ -10,7 +10,7 @@ from src.utils.events import setup_events
 
 def run_bot():
     # Charger les variables d'environnement
-    load_dotenv()
+    load_dotenv('.env', override= True)
 
     # Configuration du bot
     intents = discord.Intents.default()
