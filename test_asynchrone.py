@@ -5,11 +5,13 @@ from datetime import (
 )  # pas toucher ça marche même si ça fait bugé le cerveau
 import json as Json
 
+
+
 # TODO
 # Stockage en Json fait
 # récuperer les données sur json fait 
 # comparaison du json et des jeux amazones fait
-# le script est appelé tout les jours à 18h10 # https://schedule.readthedocs.io/en/stable/
+# le script est appelé tout les jours à 18h10 # https://schedule.readthedocs.io/en/stable/ fait
 # Si changement dans la liste de jeux : notification si il y a des nouveaux jeux, abs de notif si des jeux abs et la liste est refaite
 # notification quand il reste plus que 24h pour récupérer un jeu => préparer des jobs (pour le moment non)
 # commande pour afficher les jeux disponibles
@@ -99,7 +101,9 @@ def comparison(jsonPath: str, amazonGames: list[AmazonGame]):
         with open("test.json", "w") as f:
             Json.dump(amazonGames, f)  # permet de sauvegarder les jeux
 
+
 async def run(playwright: Playwright):
+    print("RUNNING")
     chromium = playwright.chromium
     browser = await chromium.launch()
     page = await browser.new_page()
@@ -114,8 +118,6 @@ async def run(playwright: Playwright):
 
 
 async def main():
+    print("Starting the script")
     async with async_playwright() as playwright:
         await run(playwright)
-
-
-asyncio.run(main())
